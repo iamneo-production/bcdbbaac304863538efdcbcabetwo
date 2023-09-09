@@ -57,7 +57,7 @@ function resetGame(){
         btn.value='';
         btn.classList.remove('X','O');
     });
-    result.innerHTML=  `Player $ { currentPlayer}'s Turn`;
+    result.innerHTML=  `Player ${currentPlayer}'s Turn`;
     document.getElementById('reset').disabled=true;
 }
 
