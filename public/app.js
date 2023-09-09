@@ -16,7 +16,7 @@ let conditions = [
 
 // Function to handle player moves
 const ticTacToe = (btn, index) => {
-    if(btn.value ==='' && ! checkWinner()){
+    if(btn.value ==='' && !checkWinner()){
         cells[index]=currentPlayer;
         btn.value=currentPlayer;
 
